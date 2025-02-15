@@ -22,9 +22,13 @@ You'll get a notification from the app when the `#tag` changes
 
 ## Installation
 
-> TODO
+You can find the latest release of PDBar [here](https://github.com/JRiggles/PDBar/releases/latest) on the Releases page
 
-### Build it Yourself
+To download the app, just click on the "Assets" dropdown and then click on the "PDBar.app.zip" link
+
+Once you've donwloaded the file, simply unzip it and move PDBar to your Applications folder
+
+## Build it Yourself
 
 You can also build the app yourself!
 
