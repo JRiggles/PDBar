@@ -1,0 +1,3 @@
+feedparser
+py2app
+rumps
