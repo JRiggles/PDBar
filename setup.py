@@ -15,6 +15,7 @@ OPTIONS = {
         ),
     },
     'packages': ['feedparser', 'rumps',],
+    'excludes': ['setuptools'],  # fix issue with py2app builds failing
 }
 
 setup(
