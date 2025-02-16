@@ -36,7 +36,7 @@ You can also build the app yourself!
 > You'll need Python installed (this app was built using Python 3.12)
 
 1. Clone this repo
-2. Open a terminal and navigate to the root of the cloned directory, **LTOTD**
+2. Open a terminal and navigate to the root of the cloned directory, **PDBar**
 3. Run the command `pip install -r requirements.txt` to install the necessary dependencies (you may want to do this in a `venv`, but it's not strictly required)
 4. Run the command `python setup.py py2app` to build the app
 
