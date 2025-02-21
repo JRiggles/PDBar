@@ -21,10 +21,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
+
 import datetime as dt
+from asyncio import run
+
 import feedparser as fp
 import rumps
-from asyncio import run
 
 
 class PDBar(rumps.App):
@@ -71,8 +73,11 @@ class PDBar(rumps.App):
         """
         URL = 'https://mastodon.art/@Pixel_Dailies.rss'
         feed = fp.parse(URL)
-        tag = ([tag['term'] for tag in feed.entries[0].tags if
-                tag['term'] != 'pixel_dailies'])
+        tag = [
+            tag['term']
+            for tag in feed.entries[0].tags
+            if tag['term'] != 'pixel_dailies'
+        ]
         return f'#{tag[0]}' if tag else 'No Tag Found'
 
 
