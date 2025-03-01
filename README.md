@@ -47,7 +47,7 @@ If everything worked, you'll find the app here:
 ## Dependencies
 
   - [Feedparser](https://feedparser.readthedocs.io/en/latest/index.html)
-  - [py2app](https://py2app.readthedocs.io/en/latest/index.htm)
+  - [py2app](https://py2app.readthedocs.io/en/latest/index.html)
   - [Rumps](https://github.com/jaredks/rumps?tab=readme-ov-file)
 
 ## Acknowledgements
