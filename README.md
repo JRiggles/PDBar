@@ -5,8 +5,13 @@
 
 A **Mac OS** menu bar app that displays the [Pixel Dailies](https://mastodon.art/@pixel_dailies) theme
 
-<img src="https://badgen.net/badge/latest/0.1.0"/>
+<img src="https://badgen.net/badge/latest/0.2.0"/>
 
+### Changes:
+**v0.2.0** - Adds the option to enable or disable notifications
+
+>[!NOTE]
+>Due to limitations with the `rumps` framework, changing this preference doesn't update the notification permissions shown in MacOS System Settings
 
 ## Getting Started
 
@@ -33,7 +38,7 @@ Once you've donwloaded the file, simply unzip it and move PDBar to your Applicat
 You can also build the app yourself!
 
 > [!NOTE]
-> You'll need Python installed (this app was built using Python 3.12)
+> You'll need Python installed (this app was built using Python 3.14)
 
 1. Clone this repo
 2. Open a terminal and navigate to the root of the cloned directory, **PDBar**

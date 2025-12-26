@@ -1,7 +1,7 @@
 from setuptools import setup
 
 APP = ['src/pdbar.py']
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': False,
